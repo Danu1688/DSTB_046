@@ -1,9 +1,9 @@
 proxies:
-- name: PakDheNusa_LiveNusa_1
+- name: IndraGudangNusa_LiveNusa_1
   type: trojan
   server: beacon.liveon.id
   port: 443
-  password: dff25ceb-0d2c-4702-a76e-25f70e6809b6
+  password: 0fc10058-1f49-45d6-a53e-f2e7d7fb9423
   udp: true
   sni: vpna4mvbhv.scpotato.me
   skip-cert-verify: true
