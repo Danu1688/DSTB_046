@@ -1,0 +1,79 @@
+proxies:
+- name: PakDheNusa_LiveNusa_1
+  type: trojan
+  server: beacon.liveon.id
+  port: 443
+  password: dff25ceb-0d2c-4702-a76e-25f70e6809b6
+  udp: true
+  sni: vpna4mvbhv.scpotato.me
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: vpna4mvbhv.scpotato.me
+- name: Dstb045_DO_2
+  type: trojan
+  server: beacon.liveon.id
+  port: 443
+  password: 8e7c371f-f099-47b2-9335-8ccffdb4281d
+  udp: true
+  sni: sgdo2.myserver-prem.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /xraytrojanws
+    headers:
+      Host: sgdo2.myserver-prem.xyz
+- name: Dstb045_DO_1
+  type: trojan
+  server: beacon.liveon.id
+  port: 443
+  password: 5a63dc3b-36a3-4bda-a5bd-95d5c8b197e7
+  udp: true
+  sni: danu529.foryou-ssh.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: danu529.foryou-ssh.my.id
+- name: TrojanWsSvr-Live_1
+  type: trojan
+  server: circles.asia
+  port: 443
+  password: 9766b64f-2d18-464b-8be5-02231f0e0c44
+  udp: true
+  sni: sgdo3.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: sgdo3.dstb.cloud
+- name: DanuNusa_LiveNusa_1
+  type: trojan
+  server: beacon.liveon.id
+  port: 443
+  password: 55349efa-6b40-4225-9158-946a3e3e07eb
+  udp: true
+  sni: vpna4mvbhv.scpotato.me
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: vpna4mvbhv.scpotato.me
+- name: DanuRmWeb_LiveRmWeb_1
+  type: trojan
+  server: beacon.liveon.id
+  port: 443
+  password: f249583f-004c-4ef0-a2b1-e16e2e286d57
+  udp: true
+  sni: vpnrdfs1ov.scpotato.me
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: vpnrdfs1ov.scpotato.me
