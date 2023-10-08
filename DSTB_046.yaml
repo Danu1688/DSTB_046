@@ -64,42 +64,185 @@ proxies:
     path: /trojan-ws
     headers:
       Host: dstb.cloud
-- name: Dstb045Do1B_Live_H2
+- name: SeverDo2_Live_IP1
   type: trojan
-  server: beacon.liveon.id
+  server: 104.17.224.203
   port: 443
-  password: 8e7c371f-f099-47b2-9335-8ccffdb4281d
+  password: 1cd070a9-b27d-4be2-80f7-4c3456b1b507
   udp: true
-  sni: sgdo2.myserver-prem.xyz
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /xraytrojanws
-    headers:
-      Host: sgdo2.myserver-prem.xyz
-- name: Dstb045Do1A_Live_H2
-  type: trojan
-  server: beacon.liveon.id
-  port: 443
-  password: 5a63dc3b-36a3-4bda-a5bd-95d5c8b197e7
-  udp: true
-  sni: danu529.foryou-ssh.my.id
+  sni: dstb.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan-ws
     headers:
-      Host: danu529.foryou-ssh.my.id
-- name: TrojanWsDo1C-Live_1
+      Host: dstb.cloud
+- name: SeverDo2_Live_IP2
+  type: trojan
+  server: 104.16.143.190
+  port: 443
+  password: 1cd070a9-b27d-4be2-80f7-4c3456b1b507
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: dstb.cloud
+- name: SeverDo2_Live_IP3
+  type: trojan
+  server: 172.67.75.37
+  port: 443
+  password: 1cd070a9-b27d-4be2-80f7-4c3456b1b507
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: dstb.cloud
+- name: SeverDo2_Live_IP4
+  type: trojan
+  server: 104.26.15.208
+  port: 443
+  password: 1cd070a9-b27d-4be2-80f7-4c3456b1b507
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: dstb.cloud
+- name: SeverDo2_Live_IP5
+  type: trojan
+  server: 104.26.14.208
+  port: 443
+  password: 1cd070a9-b27d-4be2-80f7-4c3456b1b507
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: dstb.cloud
+- name: SeverDo2_Live_H1
   type: trojan
   server: circles.asia
   port: 443
-  password: 9766b64f-2d18-464b-8be5-02231f0e0c44
+  password: 1cd070a9-b27d-4be2-80f7-4c3456b1b507
   udp: true
-  sni: sgdo3.dstb.cloud
+  sni: dstb.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan-ws
     headers:
-      Host: sgdo3.dstb.cloud
+      Host: dstb.cloud
+- name: SeverDo2_Live_H2
+  type: trojan
+  server: beacon.liveon.id
+  port: 443
+  password: 1cd070a9-b27d-4be2-80f7-4c3456b1b507
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: dstb.cloud
+- name: ServerNusa_Live_IP1
+  type: trojan
+  server: 104.17.224.203
+  port: 443
+  password: 63780723-758c-4456-bc8e-13795525fb8a
+  udp: true
+  sni: nusa.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa.dstb.cloud
+- name: ServerNusa_Live_IP2
+  type: trojan
+  server: 104.16.143.190
+  port: 443
+  password: 63780723-758c-4456-bc8e-13795525fb8a
+  udp: true
+  sni: nusa.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa.dstb.cloud
+- name: ServerNusa_Live_IP3
+  type: trojan
+  server: 172.67.75.37
+  port: 443
+  password: 63780723-758c-4456-bc8e-13795525fb8a
+  udp: true
+  sni: nusa.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa.dstb.cloud
+- name: ServerNusa_Live_IP4
+  type: trojan
+  server: 104.26.15.208
+  port: 443
+  password: 63780723-758c-4456-bc8e-13795525fb8a
+  udp: true
+  sni: nusa.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa.dstb.cloud
+- name: ServerNusa_Live_IP5
+  type: trojan
+  server: 104.26.14.208
+  port: 443
+  password: 63780723-758c-4456-bc8e-13795525fb8a
+  udp: true
+  sni: nusa.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa.dstb.cloud
+- name: ServerNusa_Live_H1
+  type: trojan
+  server: circles.asia
+  port: 443
+  password: 63780723-758c-4456-bc8e-13795525fb8a
+  udp: true
+  sni: nusa.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa.dstb.cloud
+- name: ServerNusa_Live_H2
+  type: trojan
+  server: beacon.liveon.id
+  port: 443
+  password: 63780723-758c-4456-bc8e-13795525fb8a
+  udp: true
+  sni: nusa.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa.dstb.cloud
